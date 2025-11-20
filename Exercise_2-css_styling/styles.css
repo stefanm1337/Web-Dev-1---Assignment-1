@@ -1,0 +1,58 @@
+body { /* Global page styling */
+    background: #c9c9c9;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container { /* Main content wrapper */
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+
+.title { /* Primary page title */
+    font-size: 70px;
+    text-align: center;
+    color: #3ca30c;
+    margin: 0;
+    font-weight: 800;
+}
+
+.subtitle { /* Subtitle styling */
+    text-align: center;
+    margin-top: -10px;
+    font-size: 45px;
+    color: #3ca30c;
+}
+
+.section-title { /* Section headers throughout the page */
+    text-align: center;
+    color: #3ca30c;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+p { /* Paragraph styling */
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.white-text { /* Class for white text */
+    color: white;
+}
+
+.fact-box { /* Highlighted fact box styling */
+    background: #3ca30c;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 40px 0;
+}
+
+.fact-box h3 { /* Title inside the fact box */
+    margin: 0 0 10px;
+    font-size: 32px;
+}
