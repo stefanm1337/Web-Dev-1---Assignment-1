@@ -1,0 +1,57 @@
+body { /* Global page styling */
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #e5e5e5;
+}
+
+header { /* Page header styling */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 { /* Header title styling */
+    font-size: 60px;
+    margin: 0;
+}
+
+nav a { /* Navigation link styling */
+    margin: 0 15px; 
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.content-wrapper { /* Flexbox container for top section */
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+
+.left-text { /* top left text section styling */
+    width: 45%;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.right-image img { /* top right image styling */
+    width: 350px;
+    height: auto;
+    border: 3px solid #c2c2c2;
+}
+
+#container{ /* Image and video flexbox containter */
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+#A{ /* big container object styling */
+    width: 65%;
+    height:350px;
+}   
+#B{ /* small container object styling */
+    width: 35%;
+    height:350px;
+}
