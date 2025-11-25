@@ -1,0 +1,78 @@
+body { /* Styled body */
+    font-family: Arial, sans-serif;
+    background: #65bffc;
+}
+
+header { /* Styled header */
+    text-align: center;
+    padding: 10px;;
+}
+
+p{ /* Styled paragraph */
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav ul { /* Styled navigation list */
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a { /* Styled navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.gallery{ /* Styled gallery container */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:space-around;
+    justify-content: center;
+    
+}
+
+.photo-card { /* Styled photo-card container */
+    display:flex;
+    flex-direction: row;
+    align-items: space-between;   
+    gap:10px;
+    background: #54a2fc;
+    padding:5px;
+    width: 48%;
+    margin:5px;
+    border-radius: 8px;
+    border-color:#020303;
+    border-width:2px;
+    border-style:solid;
+}
+
+.photo-card img { /* Styled images inside photo-card */
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.photo-card button { /* Styled button inside photo-card */
+    margin-top: auto;
+    padding: 0.5rem 0.5rem;
+    background: #65bffc;
+    border: none;
+    border-radius: 5px;
+    border-color:#020303;
+    border-width:2px;
+    border-style:solid;
+    cursor:pointer;
+}
+
+footer { /* Added footer styling */
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: #54a2fc;
+}
